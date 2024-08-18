@@ -1,7 +1,9 @@
-import project1 from "../assets/projects/project-1.jpeg";
+import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.jpeg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like HTML, CSS and React, as well as back-end technologies like Javascript, Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -40,8 +42,24 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "CRUD Website",
+    title: "Text to Speech Converter",
     image: project1,
+    description:
+      "Developed a Text to Speech Converter Application using React and AWS Polly. Integrated AWS Polly to convert user input text into natural-sounding speech. The application features a user-friendly interface for real-time text-to-speech conversion, enhancing accessibility and user interaction.",
+    technologies: ["React", "AWS", "Polly"],
+    link: "https://text-to-speech-aws-polly.netlify.app",
+  },
+  {
+    title: "Job List Application",
+    image: project2,
+    description:
+      "Developed a full-stack Job List Application using the MERN Stack. Implemented Node.js APIs hosted on AWS EC2, managed via Putty for seamless deployment and server management. The application efficiently handles job listings, and dynamic data interactions.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "AWS EC2", "Putty"],
+    link: "https://job-portal-aws.netlify.app",
+  },
+  {
+    title: "CRUD Website",
+    image: project3,
     description:
       "A website that allow users to create, read, update, and delete data within a user-friendly interface, enabling seamless management of records or content.",
     technologies: ["HTML", "CSS", "JavaScript", "Firebase"],
@@ -49,7 +67,7 @@ export const PROJECTS = [
   },
   {
     title: "Todo List App",
-    image: project2,
+    image: project4,
     description:
       "An application that helps users efficiently manage tasks by allowing them to create, organize, and track their to-dos in a streamlined interface.",
     technologies: ["HTML", "CSS", "React", "Node.js"],
@@ -57,15 +75,15 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project5,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "Bootstrap"],
-    link: "https://react-portfolio-demo-opal.vercel.app/",
+    technologies: ["HTML", "CSS", "React", "Vite", "Node.js", "Bootstrap"],
+    link: "https://personal-portfolio-seven-iota-23.vercel.app/",
   },
   {
     title: "E-Commerce Website",
-    image: project4,
+    image: project6,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
